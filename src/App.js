@@ -14,7 +14,7 @@ const App = () =>
         <Wrapper>
           <Route exact path="/" component={About}/>
           <Route path="/about" component={About}/>
-          <Route path="/about" component={Employees}/>
+          <Route path="/employees" component={Employees}/>
         </Wrapper>
         <Footer />
       </div>
