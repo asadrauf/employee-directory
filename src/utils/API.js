@@ -51,5 +51,13 @@ export function useGet(url){
         setDisplayedEmployees([...employees])
     }
 
-   
+    // sorts the employees based on age. (seek help from stackoverflow to read different threads and from some online solutions)
+    function sortByAge(){
+        employees.sort(function(a,b){
+            return (a.dob.age - b.dob.age)
+        })
+        setDisplayedEmployees([...employees])
+    }
+
+    return {displayedEmployees, sortFunc}
 }
