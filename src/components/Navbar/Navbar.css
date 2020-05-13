@@ -14,3 +14,12 @@ nav.navbar.navbar-default {
 .employees{
   color: white;
 }
+
+.link{
+  color: aliceblue;
+  float: left;
+}
+
+.link:hover{
+  text-decoration: none;
+}

@@ -9,7 +9,7 @@ const Navbar = props =>
     <div className="container-fluid">
       <div className="navbar-header">
         <Link className="navbar-brand" to="/">
-          Employee Directory
+          Employee Directory <i class="fas fa-home"></i>
         </Link>
       </div>
       <ul className="nav navbar-nav">
@@ -21,12 +21,11 @@ const Navbar = props =>
               : ""
           }
         >
-          <Link to="/">About</Link>
         </li>
         <li
           className={window.location.pathname === "/team" ? "active" : ""}
         >
-          <Link to="/employees">Employees</Link>
+          <Link className="link" to="/employees">Employees <i class='fas fa-user-circle'></i></Link>
         </li>
       </ul>
     </div>

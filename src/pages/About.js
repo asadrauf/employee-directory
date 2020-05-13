@@ -15,15 +15,8 @@ const About = () =>
         <Col size="md-12">
           <p>
           This app will generate the table of random users from ramdomuserapi, when the user loads the Employees page, a table of employees should render. </p>
-          The user should be able to:
-
-
-          <p>User is able to Sort the table by clicking on the Name column one category</p>
-
-
-          <p>User can also flter and narrow the search by entring into the search box</p>
-         
-          
+          <p>Sort the Employee List by First Name or by Employee Age</p>
+          <p>Filter the List by typing First Name into the search Box</p>
         </Col>
       </Row>
     </Container>

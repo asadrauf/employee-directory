@@ -13,15 +13,16 @@ function Table() {
     const { displayedEmployees} = useContext(GlobalContext)
 
     return (
+        <div className="main-data">
         <table  id="table" className="table table-striped table-hover table-condensed">
             <thead>
                 <tr>
                     <td>Image</td>
-                    <td onClick={() => sortFunc("name")}><Button>First Name <span className="pointer"></span></Button></td>
+                    <td onClick={() => sortFunc("name")}><Button>First Name<span>🔻</span></Button></td>
                     <td>Last Name</td>
                     <td>Gender</td>
                     <td>E-mail</td>
-                    <td onClick={() => sortFunc("age")}><Button>Age</Button></td>
+                    <td onClick={() => sortFunc("age")}><Button>Age<span>🔻</span></Button></td>
                 </tr>
             </thead>
             <tbody>
@@ -46,6 +47,7 @@ function Table() {
                 )}
             </tbody>
         </table>
+        </div>
     )
 }
 export default Table;
