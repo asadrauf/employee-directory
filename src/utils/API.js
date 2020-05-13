@@ -24,4 +24,32 @@ export function useGet(url){
         getEmployees()
     },[])
 
-   
+    // used to decide which sort function to trigger
+    function sortFunc(sort){
+        switch(sort){
+            case "name":
+                sortByName()
+                break
+            case "age":
+                sortByAge()
+                break
+            default:
+                console.log("sort does not match any cases")
+        }
+    }
+
+    // sorts the employees based on first name. (seek help from stackoverflow to read different threads and from some online solutions)
+    function sortByName(){
+         employees.sort(function(a,b){
+            if(a.name.first < b.name.first){
+                return -1;
+            }else{
+                return 1;
+            }
+        })
+        // You have to spread, because this creates a new variable, instead of just updating the variable. React will not recognize it as an update if you just update the variable.
+        setDisplayedEmployees([...employees])
+    }
+
+
+}
