@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState, useContext } from 'react';
 import { useGet } from "../../utils/API";
 import "./Table.css";

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {useEffect, useContext} from 'react';
 import {GlobalContext} from "./GlobalContext";
 import axios from "axios"

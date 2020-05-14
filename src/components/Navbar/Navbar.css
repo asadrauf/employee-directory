@@ -15,11 +15,11 @@ nav.navbar.navbar-default {
   color: white;
 }
 
-.link{
+.links{
   color: aliceblue;
   float: left;
 }
 
-.link:hover{
+.links:hover{
   text-decoration: none;
 }

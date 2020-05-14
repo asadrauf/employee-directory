@@ -25,7 +25,7 @@ const Navbar = props =>
         <li
           className={window.location.pathname === "/team" ? "active" : ""}
         >
-          <Link className="link" to="/employees">Employees <i class='fas fa-user-circle'></i></Link>
+          <Link className="links" to="/employees">Employees <i class='fas fa-user-circle'></i></Link>
         </li>
       </ul>
     </div>
