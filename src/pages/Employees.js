@@ -13,7 +13,7 @@ export default function Employees() {
         <div>
         <GlobalContext.Provider value={{employees, setEmployees, displayedEmployees, setDisplayedEmployees}}>
         <Wrapper>
-        <div className="bold">Employee Search: </div>
+        <div className="search" style={{ marginTop: 10 }}></div>
                 <Search />
         <Table />
         </Wrapper>

@@ -2,12 +2,14 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import employee from "../image/employee.png";
 
 const About = () =>
   <div>
-    <Container style={{ marginTop: 30 }}>
+    <Container style={{ marginTop: 1 }}>
       <Row>
         <Col size="md-12">
+        <img className='profile-image' alt='icon' src={employee}/>
           <h1>Welcome To Employee Directory!</h1>
         </Col>
       </Row>

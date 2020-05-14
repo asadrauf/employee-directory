@@ -43,9 +43,8 @@ export function useGet(url){
          employees.sort(function(a,b){
             if(a.name.first < b.name.first){
                 return -1;
-            }else{
-                return 1;
             }
+                return 1;   
         })
         // You have to spread, because this creates a new variable, instead of just updating the variable. React will not recognize it as an update if you just update the variable.
         setDisplayedEmployees([...employees])

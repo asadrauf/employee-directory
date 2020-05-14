@@ -23,7 +23,7 @@ function Search(){
     }
  
     return(
-       <input type="text" onChange= {updateSearch} value={search}></input>
+       <input className="searchBox" placeholder=" Search here. . ." type="text" onChange= {updateSearch} value={search}></input>
     )
 }
 export default Search;
