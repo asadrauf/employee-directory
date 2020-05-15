@@ -1,5 +1,7 @@
 > ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) #An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
+![](emp.png)
+
 These are the programming languages that we used to built this application
 **react, HashRouter and Hooks**
 
