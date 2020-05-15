@@ -1,8 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) #An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
-## Available Scripts
+These are the programming languages that we used to built this application
+**react, HashRouter and Hooks**
 
-In the project directory, you can run:
+
+![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  ![Documentation](https://img.shields.io/badge/Documentation-Yes-yellowgreen) ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-MIT-green)
+
+## Install  ![Maintained](https://img.shields.io/badge/npm-install-red)
+npm install
+npm install will download a package and it's dependencies. npm install can be run with or without arguments. When run without arguments, npm install downloads dependencies defined in a package.json file and generates a node_modules folder with the installed modules
+
+## Run Tests  ![Maintained](https://img.shields.io/badge/npm-test-red)
+
+
+## Author
+**Full Stack Developer**
+- Github : [@asadrauf](https://github.com/asadrauf)
+
+## License 
+MIT: ![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
+---
+**react-router-dom and gh-pages** [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev)
+## Contributing
+**asad**
+Issues, Feature requests are most welcomed!. There are still issues and anyone can help to fixed the issues. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Show your support :pray:
+Give a :star: or follow me if this project helped you.
+### Any suggestion or question are most welcome
+<img src="https://avatars1.githubusercontent.com/u/7818024?v=4"  style="border-radius: 18px" width="30px" style = "border: 2px solid green" /> Email : [umiasad2017@gmail.com](asadrauf)
+
+*This app was coded with :heart: by Full Stack Developer Asad Rauf*
+![Maintained](https://img.shields.io/badge/react-reactrouter-yellowgreen) ![Maintained](https://img.shields.io/badge/Hooks-ContextAPI-blue)
+
 
 ### `npm start`
 
@@ -43,26 +73,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
